@@ -149,10 +149,26 @@ export default function Portfolio() {
           <p className="relative z-10 text-neutral-400 max-w-2xl text-lg mb-8 leading-relaxed">
             Are you looking to collaborate on innovative ship design, optimize quality control standards, or discuss the future of maritime technology? Let's connect and turn industry challenges into world-class solutions.
           </p>
-          <button className="relative z-10 px-8 py-4 rounded-full bg-white text-black font-semibold flex items-center gap-2 hover:bg-neutral-200 hover:scale-105 transition-all">
+
+          <div className="relative z-10 flex flex-col md:flex-row gap-6 mb-8">
+            <a href="tel:+2348106770972" className="flex items-center gap-2 text-neutral-300 hover:text-white transition-colors">
+              <span className="w-10 h-10 rounded-full bg-neutral-800 flex items-center justify-center">📞</span>
+              +234 810 677 0972
+            </a>
+            <a href="tel:+2349072517542" className="flex items-center gap-2 text-neutral-300 hover:text-white transition-colors">
+              <span className="w-10 h-10 rounded-full bg-neutral-800 flex items-center justify-center">📞</span>
+              +234 907 251 7542
+            </a>
+            <a href="mailto:Agaqualitycontrol@gmail.com" className="flex items-center gap-2 text-neutral-300 hover:text-white transition-colors">
+              <span className="w-10 h-10 rounded-full bg-neutral-800 flex items-center justify-center">✉️</span>
+              Agaqualitycontrol@gmail.com
+            </a>
+          </div>
+
+          <a href="mailto:Agaqualitycontrol@gmail.com" className="relative z-10 px-8 py-4 rounded-full bg-white text-black font-semibold flex items-center gap-2 hover:bg-neutral-200 hover:scale-105 transition-all">
             <Mail className="w-5 h-5" />
             Get in Touch
-          </button>
+          </a>
         </motion.section>
       </main>
 
